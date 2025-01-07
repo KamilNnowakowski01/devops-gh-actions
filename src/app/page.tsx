@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import HomeText from "./HomeText";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>Page created for exercises in setting up github actions.</h1>
+        <HomeText/>
 
         <div className={styles.ctas}>
           <a
