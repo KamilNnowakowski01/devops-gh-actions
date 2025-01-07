@@ -1,6 +1,6 @@
-// __tests__/Home.test.js
-import '@testing-library/jest-dom';
-import React from 'react'; // Dodaj ten import
+/**
+ * @jest-environment jsdom
+ */
 import { render, screen } from '@testing-library/react';
 import HomeText from '../src/app/HomeText';
 
